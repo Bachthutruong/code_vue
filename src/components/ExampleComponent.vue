@@ -2,7 +2,11 @@
   <div>
     <p>{{ title }}</p>
     <ul>
-      <li v-for="todo in todos" :key="todo.id" @click="increment">
+      <li
+        v-for="todo in todos"
+        :key="todo.id"
+        @click="increment"
+      >
         {{ todo.id }} - {{ todo.content }}
       </li>
     </ul>
@@ -12,26 +16,34 @@
     <div>===========================</div>
     <p>Count: {{ counter.counter }} / {{ counter.doubleCount }}</p>
     <p>Active: {{ active ? 'yes' : 'no' }}</p>
-    <div style="width: 100px; height: 100px" @click="counter.increment()">Clicks on todos</div>
+    <div
+      style="width: 100px; height: 100px"
+      @click="counter.increment()"
+    >
+      Clicks on todos
+    </div>
+    <div>===========================</div>
+    <p>Count: {{ main.lang }} / {{ main.getLang }}</p>
+    <div
+      style="width: 100px; height: 100px"
+      @click="main.changeLanguages('vi', this)"
+    >
+      Clicks on change Languages
+    </div>
   </div>
 </template>
 
 <script lang="ts">
-import {
-  defineComponent,
-  PropType,
-  computed,
-  ref,
-  toRef,
-  Ref,
-} from 'vue';
+import { defineComponent, PropType, computed, ref, toRef, Ref } from 'vue';
 import { Todo, Meta } from './models';
-import {useCounterStore} from 'stores/example-store'
+import { useCounterStore } from 'stores/example-store';
+import { useMainStore } from 'stores/main';
 
 function useClickCount() {
   const clickCount = ref(0);
+
   function increment() {
-    clickCount.value += 1
+    clickCount.value += 1;
     return clickCount.value;
   }
 
@@ -48,24 +60,30 @@ export default defineComponent({
   props: {
     title: {
       type: String,
-      required: true
+      required: true,
     },
     todos: {
       type: Array as PropType<Todo[]>,
-      default: () => []
+      default: () => [],
     },
     meta: {
       type: Object as PropType<Meta>,
-      required: true
+      required: true,
     },
     active: {
-      type: Boolean
-    }
+      type: Boolean,
+    },
   },
-  setup (props) {
-    const counter = useCounterStore()
+  setup(props) {
+    const counter = useCounterStore();
+    const main = useMainStore();
 
-    return { ...useClickCount(), ...useDisplayTodo(toRef(props, 'todos')) , counter };
+    return {
+      ...useClickCount(),
+      ...useDisplayTodo(toRef(props, 'todos')),
+      counter,
+      main,
+    };
   },
 });
 </script>
