@@ -9,6 +9,10 @@
     <p>Count: {{ todoCount }} / {{ meta.totalCount }}</p>
     <p>Active: {{ active ? 'yes' : 'no' }}</p>
     <p>Clicks on todos: {{ clickCount }}</p>
+    <div>===========================</div>
+    <p>Count: {{ counter.counter }} / {{ counter.doubleCount }}</p>
+    <p>Active: {{ active ? 'yes' : 'no' }}</p>
+    <div style="width: 100px; height: 100px" @click="counter.increment()">Clicks on todos</div>
   </div>
 </template>
 
@@ -22,6 +26,7 @@ import {
   Ref,
 } from 'vue';
 import { Todo, Meta } from './models';
+import {useCounterStore} from 'stores/example-store'
 
 function useClickCount() {
   const clickCount = ref(0);
@@ -58,7 +63,9 @@ export default defineComponent({
     }
   },
   setup (props) {
-    return { ...useClickCount(), ...useDisplayTodo(toRef(props, 'todos')) };
+    const counter = useCounterStore()
+
+    return { ...useClickCount(), ...useDisplayTodo(toRef(props, 'todos')) , counter };
   },
 });
 </script>
