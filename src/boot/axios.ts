@@ -1,6 +1,6 @@
 import { boot } from 'quasar/wrappers';
 import axios, { AxiosInstance } from 'axios';
-
+import interceptors from 'src/core/api/interceptors';
 declare module '@vue/runtime-core' {
   interface ComponentCustomProperties {
     $axios: AxiosInstance;
@@ -15,13 +15,16 @@ declare module '@vue/runtime-core' {
 // for each client)
 const api = axios.create({ baseURL: 'https://api.example.com' });
 
-export default boot(({ app }) => {
+export default boot(({ app, router, redirect }) => {
+  const context = { app, router, redirect };
   // for use inside Vue files (Options API) through this.$axios and this.$api
-
+  interceptors.configRequest(axios, context);
+  interceptors.configResponse(axios, context);
   app.config.globalProperties.$axios = axios;
   // ^ ^ ^ this will allow you to use this.$axios (for Vue Options API form)
   //       so you won't necessarily have to import axios in each vue file
-
+  interceptors.configRequest(api, context);
+  interceptors.configResponse(api, context);
   app.config.globalProperties.$api = api;
   // ^ ^ ^ this will allow you to use this.$api (for Vue Options API form)
   //       so you can easily perform requests against your app's API
