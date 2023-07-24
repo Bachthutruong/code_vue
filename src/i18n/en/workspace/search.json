@@ -1,0 +1,15 @@
+{
+  "title": {
+    "header": "Search results for ",
+    "task": "Task",
+    "files": "Files",
+    "channel": "Channel",
+    "oneToOne": "One-to-One",
+    "chat": "Chat",
+    "wiki": "Wiki"
+  },
+  "search": "What are you looking for?",
+  "recent": {
+    "search": "Recent searches"
+  }
+}

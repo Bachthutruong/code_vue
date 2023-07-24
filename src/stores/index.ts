@@ -1,7 +1,8 @@
 import { store } from 'quasar/wrappers';
+import { markRaw } from 'vue';
 import { createPinia } from 'pinia';
 import { Router } from 'vue-router';
-
+import router from 'src/router';
 /*
  * When adding new properties to stores, you should also
  * extend the `PiniaCustomProperties` interface.
@@ -22,11 +23,13 @@ declare module 'pinia' {
  * with the Store instance.
  */
 
-export default store((/* { ssrContext } */) => {
+export default store((context) => {
   const pinia = createPinia();
 
   // You can add Pinia plugins here
   // pinia.use(SomePiniaPlugin)
-
+  pinia.use(({ store }) => {
+    store.$router = markRaw(router);
+  });
   return pinia;
 });

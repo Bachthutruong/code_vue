@@ -1,0 +1,5 @@
+{
+  "required": "{_field_} is required",
+  "email": "Invalid email address format",
+  "date": "Invalid date format"
+}

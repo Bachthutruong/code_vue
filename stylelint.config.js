@@ -7,5 +7,12 @@ module.exports = {
   ],
   // add your custom config here
   // https://stylelint.io/user-guide/configuration
-  rules: {},
+  rules: {
+    'selector-anb-no-unmatchable': null,
+  },
+  ignore: [
+    'consecutive-duplicates',
+    'consecutive-duplicates-with-different-values',
+    'consecutive-duplicates-with-different-syntaxes',
+  ],
 };

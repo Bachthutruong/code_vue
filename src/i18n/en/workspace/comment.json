@@ -1,0 +1,28 @@
+{
+  "title": "Notification",
+  "newTask": "has created new task",
+  "owner": "(Owner of channel)",
+  "editTask": "has edited task",
+  "reminderDue": "Reminder",
+  "reminder": "Upcoming due date task at",
+  "liked": "has liked your comment",
+  "markDone": "has marked done task",
+  "markCancel": "has marked cancel task",
+  "replyComment": "has replied your comment",
+  "comment": "has commented this task",
+  "removeChannel": "has been removed from channel",
+  "joinChannel": "has been join from channel",
+  "mentioned": "You has been mentioned in comment ",
+  "mentionedWiki": "You has been mentioned in a comment",
+  "reactMessage": "has reacted to a message | has reacted to your message",
+  "newVoted": "has voted in the poll",
+  "commentWiki": "has commented this post",
+  "reactCommentWiki": "has reacted to your commented",
+  "notify": {
+    "markAsReadSuccess": "Mark as read success",
+    "markAsReadFailed": "Mark as read failed"
+  },
+  "react": "React",
+  "reply": "Reply",
+  "contentDescription": "Content description"
+}

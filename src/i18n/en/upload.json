@@ -1,0 +1,7 @@
+{
+  "rules": "Attachment (limit 5 files; 25mb each file)",
+  "totalUploaded": "Attachment: {count} files uploaded",
+  "notify": {
+    "nodata": "This file contains no data"
+  }
+}

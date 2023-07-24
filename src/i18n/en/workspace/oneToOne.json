@@ -1,0 +1,43 @@
+{
+  "menuAction": {
+    "muteChannel": "Mute channel",
+    "unmuteChannel": "Unmute channel",
+    "closeConversation": "Close conversation",
+    "markAsRead": "Mark as read",
+    "markCancelTask": "Mark cancel task"
+  },
+  "notify": {
+    "closeConversationSuccess": "Close conversation success",
+    "closeConversationFailed": "Close conversation failed",
+    "muteChannelSuccess": "Mute channel success",
+    "muteChannelFailed": "Mute channel failed",
+    "unmuteChannelSuccess": "Unmute channel success",
+    "unmuteChannelFailed": "Unmute channel failed",
+    "markAsReadSuccess": "Mark as read success",
+    "markAsReadFailed": "Mark as read failed"
+  },
+  "headerFilterOneToOne": {
+    "all": "All",
+    "markDone": "Mark done",
+    "markUnDone": "Mark undone",
+    "markAsRead": "Mark as read",
+    "markAsUnRead": "Mark as unread",
+    "back": "Back",
+    "status": "Status",
+    "overdue": "Overdue",
+    "indue": "Upcoming",
+    "done": "Done",
+    "cancel": "Cancel",
+    "priority": "Priority",
+    "high": "High",
+    "medium": "Medium",
+    "low": "Low",
+    "flag": "Flag",
+    "flagSet": "Flag set",
+    "taskView": "Task view",
+    "unreadTask": "Unread task",
+    "readTask": "Read task",
+    "reset": "Reset",
+    "apply": "Apply"
+  }
+}

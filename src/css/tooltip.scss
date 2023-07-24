@@ -1,0 +1,31 @@
+.q-tooltip {
+  &.tool-tip {
+    text-align: center;
+    span {
+      word-break: break-word;
+    }
+    .item-title {
+      font-size: 16px;
+      color: #2f2f2f;
+      font-weight: 400;
+    }
+  }
+  &.tool-tip-card {
+    text-align: center;
+    padding: 8px 16px;
+    position: relative;
+
+    span {
+      font-size: 14px;
+      line-height: 20px;
+      color: #2f2f2f;
+      font-weight: 400;
+      min-width: 114px;
+      min-height: 36px;
+    }
+  }
+}
+
+.v-popper--theme-dropdown .v-popper__arrow-inner {
+  border-color: #e7f6e9 !important;
+}

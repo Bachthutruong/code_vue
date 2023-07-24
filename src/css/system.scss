@@ -1,0 +1,53 @@
+// typography
+.text-h3-regular {
+  //styleName: Heading 3/Regular;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 32px;
+}
+
+.text-h5 {
+  font-weight: 600;
+  &-bold {
+    //styleName: Heading 5/Bold;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+  }
+  &-regular {
+    //styleName: Heading 5/Regular;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+  }
+}
+
+.text-body {
+  //styleName: Body/Medium;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  &-bold {
+    //styleName: Body/Bold;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+  }
+  &-regular {
+    //styleName: Body/Regular;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+  }
+}
+
+.text-line-through {
+  text-decoration-line: line-through;
+}
+
+.q-date__calendar-item button {
+  padding: 0;
+}
+.pb-2 {
+  padding-bottom: 2rem;
+}

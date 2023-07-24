@@ -1,0 +1,13 @@
+{
+  "invitePeople": "Invite people to this workspace",
+  "createChannel": "Create a channel",
+  "payment": "Payment",
+  "admin": "Administration",
+  "preferences": "Preferences",
+  "addWorkspace": "Add workspaces",
+  "switchWorkspace": "Switch workspaces",
+  "signOutWorkspace": "Sign out of this workspace",
+  "people": "People",
+  "statistic": "Statistic",
+  "signIn": "Sign in to another workspace"
+}

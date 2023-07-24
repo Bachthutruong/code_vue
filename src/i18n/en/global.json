@@ -1,0 +1,37 @@
+{
+  "save": "Save",
+  "ok": "Ok",
+  "cancel": "Cancel",
+  "remove": "Remove",
+  "no": "No",
+  "clear": "Clear",
+  "createdBy": "{0} on {1}",
+  "rulesMessage": {
+    "require": "{0} is required",
+    "maxLength": "{0} must be less than {1} characters"
+  },
+  "file": {
+    "createdBy": "Shared by {0} on {1}"
+  },
+  "messages": {
+    "updateSuccess": "Updated {0} successfully!",
+    "updateFail": "Update {0} fail!",
+    "confirmRemove": "Are you sure remove {0}",
+    "removeSuccess": "Remove {0} successfully!",
+    "required": "This is required information"
+  },
+  "edited": "Edited",
+  "send": "Send",
+  "sent": "Sent",
+  "done": "Done",
+  "you": "you",
+  "or": "or",
+  "days": "days",
+  "hours": "hours",
+  "minutes": "minutes",
+  "at": "at",
+  "files": "file |files",
+  "new": "New",
+  "create": "Create",
+  "submit": "Submit"
+}
