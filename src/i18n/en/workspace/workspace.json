@@ -1,0 +1,29 @@
+{
+  "create": "Create new workspace",
+  "createWorkspace": "Create workspace",
+  "confirm": "Confirmed as",
+  "useAccount": "Don’t want to use this account?",
+  "switch": "Switch account",
+  "banner": {
+    "create": "Create a new TMessage Workspace",
+    "tmessDesc": "TMessage helps you to manage tasks effectively and work with other teammembers easily. To create a new workspace, click the button below.",
+    "btnCreate": "Create a workspace",
+    "btnDesc": "By continuing, you are agreeing to our Customer Terms of Service, UserTerm off Service, Privacy Policy, and Cookie Policy"
+  },
+  "or": "Or",
+  "open": "Open a workspace",
+  "invite": {
+    "welcome": "Welcome to",
+    "invited": "You have been invited to a new workspace",
+    "joined": "people joined this workspace",
+    "btnJoin": "Join now"
+  },
+  "listWorkspace": {
+    "signed": "You signed in as",
+    "welcomeBack": "Welcome back!",
+    "stay": "Stay hydrated!",
+    "chooseWorkspace": "Choose a workspace below to get back to working with your team.",
+    "differentTeam": "Want to use TMessage with different team?",
+    "anotherWorkspace": "Create another workspace"
+  }
+}

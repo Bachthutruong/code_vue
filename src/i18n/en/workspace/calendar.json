@@ -1,0 +1,25 @@
+{
+  "title": "Calendar",
+  "taskByYear": "Tasks by year",
+  "taskList": "Tasks list",
+  "taskYear": {
+    "hoverTask": {
+      "done": "View detail Done tasks",
+      "indue": "View detail Upcoming tasks",
+      "overdue": "View detail Overdue tasks  "
+    }
+  },
+  "taskCalendar": {
+    "task": "task | tasks"
+  },
+  "shareCalender": {
+    "title": "Calender share",
+    "subTitle": "Choose the way you want to share your calendar"
+  },
+  "roleCalender": {
+    "public": "Share public",
+    "share": "Shared to selected members",
+    "private": "Set private (only you)",
+    "notifyErrorMember": "You need to type at least 1 name/email to continue"
+  }
+}

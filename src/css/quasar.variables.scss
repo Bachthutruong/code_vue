@@ -12,7 +12,7 @@
 // to match your app's branding.
 // Tip: Use the "Theme Builder" on Quasar's documentation website.
 
-$primary: #1976d2;
+$primary: #1c8c44;
 $secondary: #26a69a;
 $accent: #9c27b0;
 
@@ -20,6 +20,53 @@ $dark: #1d1d1d;
 $dark-page: #121212;
 
 $positive: #21ba45;
-$negative: #c10015;
+$negative: #f44436;
 $info: #31ccec;
 $warning: #f2c037;
+
+$h1: (
+  size: 30px,
+  line-height: 46px,
+  letter-spacing: -0.01562em,
+  weight: 500,
+) !default;
+$h2: (
+  size: 30px,
+  line-height: 40px,
+  letter-spacing: -0.00833em,
+  weight: 500,
+) !default;
+$h3: (
+  size: 24px,
+  line-height: 32px,
+  letter-spacing: normal,
+  weight: 500,
+) !default;
+$h4: (
+  size: 20px,
+  line-height: 28px,
+  letter-spacing: 0.00735em,
+  weight: 500,
+) !default;
+$h5: (
+  size: 16px,
+  line-height: 24px,
+  letter-spacing: normal,
+  weight: 500,
+) !default;
+$caption: (
+  size: 12px,
+  line-height: 16px,
+  letter-spacing: 0.03333em,
+  weight: 400,
+) !default;
+
+$button-shadow: 0 !default;
+$button-shadow-active: 0 !default;
+$button-border-radius: 4px !default;
+$button-padding: 10px 16px !default;
+$button-line-height: 20px !default;
+$button-dense-padding: 6px 16px !default;
+
+$input-text-color: #2f2f2f !default;
+$input-label-color: #565656 !default;

@@ -77,11 +77,12 @@ module.exports = {
 
     // in plain CommonJS modules, you can't use `import foo = require('foo')` to pass this rule, so it has to be disabled
     '@typescript-eslint/no-var-requires': 'off',
-
+    '@typescript-eslint/ban-ts-comment': 0,
     // The core 'no-unused-vars' rules (in the eslint:recommended ruleset)
     // does not work with type definitions
     'no-unused-vars': 'off',
-
+    '@typescript-eslint/no-explicit-any': ['off'],
+    '@typescript-eslint/selector-anb-no-unmatchable': 'off',
     // allow debugger during development only
     'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'off',
   },

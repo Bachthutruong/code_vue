@@ -100,5 +100,6 @@ static/
 package.json
 
 
-src/index.template.html
-src/App.vue
+/src/index.template.html
+/src/App.vue
+/src/layouts/landingPage

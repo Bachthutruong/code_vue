@@ -1,0 +1,34 @@
+{
+  "title": "All staff performance",
+  "menuAction": {
+    "editProfile": "Edit your profile",
+    "transfer": "Transfer Admin role",
+    "changeRole": "Change account role",
+    "deactivate": "Deactivate account",
+    "activate": "Activate account"
+  },
+  "transfer": "Transfer",
+  "deactivatedMember": "Deactivated member",
+  "filter": {
+    "text": "Type name...",
+    "date": "Choose date to view staff performance"
+  },
+  "modalTransfer": {
+    "title": "Transfer admin role",
+    "body": {
+      "text1": "Select the account role",
+      "text2": "should have for"
+    },
+    "options": {
+      "adminWs": "Workspace admin",
+      "member": "Member"
+    }
+  },
+  "notify": {
+    "transferAdmin": "Transfer role admin success",
+    "transferAdminFailed": "Transfer role admin failed",
+    "changeRole": "Change role success",
+    "changeRoleFailed": "Change role failed"
+  },
+  "human": "Human Resource"
+}

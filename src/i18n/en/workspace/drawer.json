@@ -1,0 +1,21 @@
+{
+  "profile": "Profile",
+  "addRole": "Add your role",
+  "deactive": "Deactive user",
+  "contact": "Contact Information",
+  "edit": "Edit",
+  "emailAddress": "Email address",
+  "phone": "Phone",
+  "addPhone": "Add phone",
+  "anotherAccount": "Want to use another account?",
+  "switchAccount": "Switch account",
+  "signOut": "Sign out of TMessage",
+  "you": "you",
+  "deactivate": "Deactivate",
+  "sendTask": "Send task",
+  "viewCalendar": "View calendar",
+  "activate": "Activate",
+  "position": "Position",
+  "department": "Department",
+  "location": "Location"
+}

@@ -1,0 +1,21 @@
+{
+  "task": {
+    "done": "Done",
+    "days": "day | days",
+    "moreThan": " more than",
+    "afterDue": " after due date",
+    "fished": "Finished on time",
+    "beforeDue": " before due date",
+    "taskDone": "Task done:",
+    "doneGap": "Done Gap",
+    "creatTask": "Created tasks",
+    "doneTask": "Done/Total tasks (%)",
+    "cancelTask": "Cancel/Total tasks (%)",
+    "channelCollaboration": "Channel Collaboration",
+    "peopleCollaboration": "People in Collaboration"
+  },
+  "title": "Overall Performance",
+  "filter": {
+    "date": "Choose date to view statistic"
+  }
+}

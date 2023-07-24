@@ -1,0 +1,179 @@
+.menu-item {
+  &.q-list {
+    padding: 4px 0;
+
+    .q-item {
+      padding: 4px 16px 4px;
+
+      .q-item__section {
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-start;
+        font-size: 16px;
+
+        span {
+          font-weight: 400;
+          line-height: 24px;
+          padding: 8px 16px 8px 11px;
+        }
+      }
+    }
+
+    .q-item:hover {
+      background: #e7f6e9;
+      border-radius: 8px;
+
+      .q-focus-helper {
+        background-color: #e7f6e9;
+      }
+
+      span {
+        font-weight: 500;
+        color: #1c8c44;
+      }
+    }
+  }
+}
+
+.badge-total {
+  min-height: 16px;
+  min-width: 16px;
+
+  &.bg-neutral-5 {
+    border: 1px solid #878b87;
+  }
+
+  &.bg-primary {
+    border: 1px solid #1c8c44;
+  }
+
+  &.bg-overdue {
+    border: 1px solid #878b87;
+  }
+
+  span {
+    margin: 0 auto;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+  }
+}
+
+.menu-action {
+  .q-list {
+    padding: 8px 16px;
+
+    .q-item {
+      padding: 8px 16px;
+      min-height: 40px;
+      margin: 4px 0;
+
+      .q-item__section {
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-start;
+        font-size: 16px;
+
+        .q-item__label {
+          padding: 0;
+          display: flex;
+          justify-content: center;
+          align-content: center;
+          i {
+            margin-right: 8px;
+          }
+          span {
+            color: #3c3c3c;
+            font-weight: 400;
+            line-height: 24px;
+          }
+        }
+      }
+    }
+
+    .q-item:hover {
+      background: #e7f6e9;
+      border-radius: 8px;
+
+      .q-focus-helper {
+        background-color: #e7f6e9;
+      }
+      .q-item__label {
+        span {
+          font-weight: 500;
+          color: #1c8c44;
+        }
+      }
+    }
+
+    .q-item.active-item {
+      background: #e7f6e9;
+      border-radius: 8px;
+
+      .q-focus-helper {
+        background-color: #e7f6e9;
+      }
+
+      .q-item__label {
+        span {
+          font-weight: 500;
+          color: #1c8c44;
+        }
+      }
+    }
+  }
+}
+.top-search {
+  position: relative;
+}
+.menu-recent-search {
+  background: #fff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  border-radius: 8px;
+  position: absolute;
+  width: 100%;
+  margin-top: 10px;
+  &-title {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #878b87;
+  }
+  .q-list {
+    padding: 16px;
+
+    .q-item {
+      padding: 8px 16px;
+      margin-top: 8px;
+
+      .q-item__section {
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-start;
+        font-size: 16px;
+
+        span {
+          color: #3c3c3c;
+          font-weight: 400;
+          line-height: 24px;
+          padding: 0 10px;
+        }
+      }
+    }
+
+    .q-item:hover {
+      background: #e7f6e9;
+      border-radius: 8px;
+
+      .q-focus-helper {
+        background-color: #e7f6e9;
+      }
+
+      span {
+        font-weight: 500;
+        color: #1c8c44;
+      }
+    }
+  }
+}

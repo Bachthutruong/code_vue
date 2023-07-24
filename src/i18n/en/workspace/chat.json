@@ -1,0 +1,139 @@
+{
+  "typeChat": {
+    "sent": "Sent",
+    "received": "Received"
+  },
+  "pinMessage": "Pinned message",
+  "replyMessageYourself": "You replied to yourself",
+  "youReplyMessage": "You replied to {reply}",
+  "replyMessage": "{name} replied to {reply}",
+  "editedBy": "(edited by {name})",
+  "deletedBy": "Deleted message by {name} at {time}",
+  "editMessage": "Edit message",
+  "noData": {
+    "title": "No chat yet.",
+    "content": "All incoming messages will be listed here."
+  },
+  "menuAction": {
+    "react": "React",
+    "convertToTask": "Convert to task",
+    "reply": "Reply",
+    "copyText": "Copy text",
+    "forward": "Forward",
+    "edit": "Edit ",
+    "pin": "Pin",
+    "unpin": "Unpin",
+    "delete": "Delete",
+    "moreAction": "More action"
+  },
+  "notify": {
+    "copyText": "Copied text",
+    "createPollVoteSuccess": "Create poll success",
+    "createPollVoteFailed": "Create poll failed",
+    "createChatSuccess": "Create chat success",
+    "createChatFailed": "Create chat failed"
+  },
+  "modalRemove": {
+    "title": "Delete message",
+    "desc": "Do you want to delete this message?",
+    "textOk": "Yes, delete"
+  },
+  "modalForward": {
+    "title": "Forward message",
+    "labelSearch": "Search for one-to-one and channel"
+  },
+  "modalEditContent": {
+    "title": "Edit text to convert to task",
+    "desc": "Your text has exceeded 1500-character limit. Please check and edit to continue converting to task.",
+    "textOk": "Convert",
+    "label": "Text for converting to task"
+  },
+  "titlePin": {
+    "content": "Viewing {count} pinned messages. ",
+    "click": "Click here ",
+    "lastContent": "to exit",
+    "contentPin": " pinned message in the channel",
+    "contentUnPin": " removed pinned message from the channel"
+  },
+  "modalRemovePin": {
+    "title": "Remove pinned message",
+    "desc": "Do you want to remove this pin message?",
+    "textOk": "Yes, remove"
+  },
+  "modalMaxPin": {
+    "title": "Unable to pin message",
+    "desc": "You’ve reached the limit of 3 pins on each channel and cannot pin messages. Please remove other pins to try this action again."
+  },
+  "modalCreatePollVote": {
+    "title": "Create poll & vote",
+    "isPin": "Pin this poll & vote",
+    "labelDesc": "Title",
+    "desc": "Type your questions",
+    "labelOptions": {
+      "text": "Answer options ",
+      "desc": "(120-character limit for each option)",
+      "valid": "You can not create poll with less than 2 options",
+      "label": "Option ",
+      "addOption": "Add option"
+    },
+    "action": {
+      "title": "Deadline",
+      "caption": "No deadline",
+      "popup": {
+        "title": "Set deadline",
+        "noDeadline": "No deadline",
+        "setTime": "Set closing time",
+        "textOk": "Set deadline"
+      }
+    },
+    "multiSelect": "Allow multi-select",
+    "popupMaxPin": {
+      "title": "Unable to pin poll & vote",
+      "desc": "You’ve reached the limit of 3 pins on each channel and cannot pin poll & vote. Please remove other pins to try this action again."
+    }
+  },
+  "titlePoll": {
+    "you": "You",
+    "content": "{name} created a new poll",
+    "contentVote": "{name} voted in the poll",
+    "contentChangeVote": "{name} change voted in the poll",
+    "contentNewAnswer": "{name} added new option in the poll",
+    "contentClosePoll": {
+      "firstContent": "The poll",
+      "lastContent": "was closed."
+    },
+    "contentPinPoll": {
+      "firstContent": "{name} pinned the poll",
+      "lastContent": "in the channel"
+    },
+    "contentUnpinPoll": {
+      "firstContent": "{name} removed pinned poll",
+      "lastContent": "from the channel"
+    },
+    "viewPoll": "view poll"
+  },
+  "cardVote": {
+    "changeVote": "Change vote",
+    "viewOptions": "View options",
+    "viewVotes": "View votes"
+  },
+  "modalVote": {
+    "title": "Poll & vote",
+    "closeTitle": "Closed poll & vote",
+    "content": "Choose suitable date and time for our meeting schedule (for offline meeting)",
+    "addOption": "Add option",
+    "labelOption": "Option ",
+    "closeContent": "Closed Poll - "
+  },
+  "inputChat": {
+    "action": {
+      "mention": "Mention",
+      "emoji": "Emoji",
+      "upFile": "Attach files",
+      "createPollVote": "Create Poll & Vote",
+      "send": "Send",
+      "convert": "Convert to task"
+    }
+  },
+  "noResult": "No Result"
+}

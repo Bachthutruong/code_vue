@@ -1,0 +1,41 @@
+{
+  "title": "Draft & Sent",
+  "notify": {
+    "updateTaskDraft": "Update task draft success",
+    "updateTaskSchedule": "Update task schedule success",
+    "removeScheduleSuccess": "Delete schedule success",
+    "removeScheduleFailed": "Delete schedule failed",
+    "removeDraftSuccess": "Delete draft success",
+    "removeDraftFailed": "Delete draft failed"
+  },
+  "popupConfirm": {
+    "btnDeleteAllSchedule": "Delete all scheduled task",
+    "btnDeleteAllScheduleWiki": "Delete all scheduled post",
+    "btnDeleteAllDraft": "Delete all draft",
+    "textOk": "Yes, delete",
+    "textCancel": "No",
+    "draft": {
+      "title": "Delete draft",
+      "subTitle": "Are you sure you want to delete this draft?",
+      "title2": "Delete all drafts",
+      "subTitle2": "Are you sure you want to delete all drafts?"
+    },
+    "schedule": {
+      "title": "Delete scheduled task",
+      "titleWiki": "Delete scheduled task",
+      "subTitle": "Are you sure to delete this scheduled task? The repeat cycle will also be cancelled.",
+      "subTitleWiki": "Are you sure you want to delete this scheduled post?",
+      "title2": "Delete all scheduled tasks",
+      "titleWiki2": "Delete all scheduled posts",
+      "subTitle2": "Are you sure to delete all scheduled task? All repeat cycle will also be cancelled.",
+      "subTitle2Wiki": "Are you sure you want to delete all scheduled posts?"
+    }
+  },
+  "modalTask": {
+    "titleEditDraft": "Edit Draft",
+    "titleScheduleDraft": "Edit scheduled task"
+  },
+  "repeat": {
+    "until": "until"
+  }
+}

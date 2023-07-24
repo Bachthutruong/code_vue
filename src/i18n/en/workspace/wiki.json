@@ -1,0 +1,54 @@
+{
+  "noData": {
+    "title": "No wiki yet.",
+    "content": "All incoming posts will be listed here."
+  },
+  "addPost": "Add post",
+  "editPost": "Edit post",
+  "detailPost": "Post detail",
+  "draftPost": "Edit draft",
+  "topic": "Topic",
+  "desc": "Content description *",
+  "notify": {
+    "createPostSuccess": "Create post success",
+    "createPostDraft": "Create post draft success",
+    "createPostSchedule": "Create post schedule success",
+    "createPostFailed": "Create post failed",
+    "updatePostSuccess": "Update post success",
+    "updatePostFailed": "Update post failed",
+    "removePostSuccess": "Delete post success",
+    "removePostFailed": "Delete post failed",
+
+    "removeDraftSuccess": "Delete draft success",
+    "removeDraftFailed": "Delete draft failed",
+    "markReadTaskSuccess": "Mark read task success",
+    "markReadTaskFailed": "Mark read task failed",
+    "markUnReadTaskSuccess": "Mark unread task success",
+    "markUnReadTaskFailed": "Mark unread task failed",
+    "muteCommentTaskSuccess": "Mute comment task success",
+    "muteCommentTaskFailed": "Mute comment task failed",
+    "unmuteCommentTaskSuccess": "Unmute comment task success",
+    "unmuteCommentTaskFailed": "Unmute comment task failed"
+  },
+  "upload": {
+    "clickHere": "Click here",
+    "getFromChannel": "to get from channel"
+  },
+  "arrangeMode": {
+    "content": "Viewing arrange mode.",
+    "click": "Click here",
+    "lastContent": "to exit"
+  },
+  "popupDelete": {
+    "title": "Delete this post",
+    "desc": "Do you want to delete this post?",
+    "textOk": "Yes, delete"
+  },
+  "popupGetFiles": {
+    "title": "Get files from this channel",
+    "textOk": "Confirm",
+    "selectedFiles": "{count} selected files"
+  },
+  "view": "View",
+  "previousComments": "previous comments"
+}

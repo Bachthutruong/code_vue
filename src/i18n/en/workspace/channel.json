@@ -1,0 +1,273 @@
+{
+  "createChannel": "Create new channel",
+  "create": "Create",
+  "name": "Name",
+  "description": "Description",
+  "makePrivate": "Make private",
+  "channelNodata": "No task yet. Try to create your first task",
+  "addTask": "Add task",
+  "addNew": "Add new",
+  "addMessage": "Add message",
+  "forwardTask": "Forward task",
+  "editTask": "Edit task",
+  "convertToTask": "Convert to task",
+  "pinTask": "Pinned task",
+  "toChannelName": "To channel name",
+  "to": "To",
+  "sentTo": "Who sent ({'@name'})",
+  "addMemberLabel": "Name ({'@name'}) or email",
+  "addPeopleLabel": "Add people ({'@name'} or email)",
+  "toDo": "What to do",
+  "dueDate": "When to due",
+  "priority": "Task priority:",
+  "repeat": "Repeat",
+  "addPeople": "Add people",
+  "sentDateTime": "Sent date & time",
+  "modalChannelDetail": {
+    "leaveChannel": {
+      "title": "Leave channel ?",
+      "subTitle": "All the tasks in this channel will be locked and you are not able to view details.",
+      "subTitle2": "{0} tasks draft & schedule will be deleted.",
+      "confirmLeave": "Yes, leave"
+    },
+    "aboutTab": {
+      "field": {
+        "name": "Channel name",
+        "topic": "Topic",
+        "description": "Description",
+        "createdBy": "Created by",
+        "files": "Files"
+      },
+      "editFieldTitle": {
+        "name": "Rename channel",
+        "topic": "Edit topic",
+        "description": "Edit description"
+      },
+      "editFieldLabel": {
+        "name": "Channel name (up to 80 characters)",
+        "topic": "Let people know what channel is focused on right now (ex. a marketing project.)",
+        "description": "Let people know what this channel is for."
+      },
+      "defaultFieldData": {
+        "topic": "Add a topic",
+        "description": "Add a description"
+      }
+    },
+    "memberTab": {
+      "labelSearch": "Find members",
+      "titleRemoveMember": "Remove this person?",
+      "descRemoveMember": "All the tasks in this channel will be locked and this person is not able to view details",
+      "confirmRemove": "Yes, remove"
+    },
+    "roleTab": {
+      "field": {
+        "AddOrRemoveUsers": "Add/Remove users ",
+        "creatChat": "Creat Chat",
+        "createTask": "Create Task",
+        "createWiki": "Create Wiki",
+        "pinChat": "Pin Chat",
+        "pinTask": "Pin Task"
+      },
+      "editFieldTitle": "Who can {name} in this channel?"
+    },
+    "roleChannel": {
+      "everyone": "Everyone",
+      "wsAdminAndChannelOwner": "Only workspace admins, channel owner",
+      "wsAdminAndChannelOwnerAndPeople": "Only workspace admins, channel owner and specific people",
+      "notifyErrorMember": "You need to type at least 1 name/email to continue"
+    },
+    "massages": {
+      "leaveSuccess": "Leave a channel {0} successfully"
+    }
+  },
+  "modalChoseSchedules": {
+    "title": "Chose schedule date",
+    "scheduleDate": "When to schedule",
+    "repeatDate": "End repeated day",
+    "schedule": "Schedule"
+  },
+  "notify": {
+    "createTaskSuccess": "Create task success",
+    "createTaskDraft": "Create task draft success",
+    "createTaskSchedule": "Create task schedule success",
+    "createTaskFailed": "Create task failed",
+    "forwardTaskSuccess": "Forward task success",
+    "forwardTaskFailed": "Forward task failed",
+    "setFlagTaskSuccess": "Set flag task success",
+    "unsetFlagTaskSuccess": "Unset flag task success",
+    "setFlagTaskFailed": "Set flag task failed",
+    "markCancelTaskSuccess": "Mark cancel task success",
+    "markCancelTaskFailed": "Mark cancel task failed",
+    "markUnCancelTaskSuccess": "Unmark cancel task success",
+    "markUnCancelTaskFailed": "Unmark cancel task failed",
+    "markDoneTaskSuccess": "Mark done task success",
+    "markDoneTaskFailed": "Mark done task failed",
+    "markUnDoneTaskSuccess": "Unmark done task success",
+    "markUnDoneTaskFailed": "Unmark done task failed",
+    "removeTaskSuccess": "Delete task success",
+    "removeTaskFailed": "Delete task failed",
+    "removeDraftSuccess": "Delete draft success",
+    "removeDraftFailed": "Delete draft failed",
+    "updateTaskSuccess": "Update task success",
+    "updateTaskFailed": "Update task failed",
+    "markReadTaskSuccess": "Mark read task success",
+    "markReadTaskFailed": "Mark read task failed",
+    "markUnReadTaskSuccess": "Mark unread task success",
+    "markUnReadTaskFailed": "Mark unread task failed",
+    "muteCommentTaskSuccess": "Mute comment task success",
+    "muteCommentTaskFailed": "Mute comment task failed",
+    "unmuteCommentTaskSuccess": "Unmute comment task success",
+    "unmuteCommentTaskFailed": "Unmute comment task failed",
+    "pinTaskSuccess": "Pin task success",
+    "pinTaskFailed": "Pin task failed",
+    "unpinTaskSuccess": "Unpin task success",
+    "unpinTaskFailed": "Unpin task failed",
+    "reminderTaskSuccess": "Reminder task success",
+    "reminderTaskFailed": "Reminder task failed"
+  },
+  "modalTaskChannel": {
+    "peopleDone": "{count} people Done",
+    "peopleCancel": "{count} people Cancel",
+    "markDone": "Mark done",
+    "markCancel": "Mark cancel",
+    "add": "Add",
+    "saveToDraft": "Save to draft",
+    "scheduleLater": "Schedule later",
+    "convertTask": "Convert to task",
+    "sendBtn": "Send",
+    "sendNow": "Send right now",
+    "indueTask": "Upcoming Task",
+    "doneTask": "Done Task",
+    "cancelTask": "Cancelled Task",
+    "overdueTask": "Overdue Task",
+    "muteComment": "Mute comment",
+    "unmuteComment": "Unmute comment",
+    "comments": "{count} comment",
+    "informationRules": "This is required information",
+    "warningEdit": "You are only able to edit this task in 1 hour once it was sent",
+    "warningMark": "Function not available due to due date of this task is earlier than time an user joined",
+    "none": "No repeat",
+    "weekday": "Weekday",
+    "daily": "Daily",
+    "weekly": "Weekly",
+    "monthly": "Monthly",
+    "weekend": "Weekend"
+  },
+  "menuAction": {
+    "pinTask": "Pin task",
+    "unpinTask": "Unpin task",
+    "setFlag": "Set flag",
+    "forwardTask": "Forward task",
+    "reminderTask": "Reminder",
+
+    "catchUp": "New members catch-up",
+    "markAsRead": "Mark as read",
+    "editTask": "Edit task",
+    "delete": "Delete",
+    "edit": "Edit"
+  },
+  "menuComment": {
+    "allComment": "All comments",
+    "topComment": "Top comments",
+    "newComment": "Newest first",
+    "oldComment": "Oldest first"
+  },
+  "sidebar": {
+    "comment": "Notification",
+    "draft": "Draft & Sent",
+    "people": "People",
+    "statistic": "Statistic",
+    "channel": "Channel",
+    "oneToOne": "One to One",
+    "calendar": "Calendar",
+    "overdue": "Overdue task",
+    "indue": "Upcoming task",
+    "done": "Done task"
+  },
+  "headerFilterChannel": {
+    "filter": "Filter",
+    "pin": "Pin",
+    "arrange": "Arrange",
+    "all": "All",
+    "markDone": "Mark done",
+    "markUnDone": "Mark undone",
+    "markAsRead": "Mark as read",
+    "markAsUnRead": "Mark as unread",
+    "back": "Back",
+    "status": "Status",
+    "overdue": "Overdue task",
+    "indue": "Upcoming task",
+    "done": "Done task",
+    "cancel": "Cancelled task",
+    "priority": "Priority",
+    "high": "High",
+    "medium": "Medium",
+    "low": "Low",
+    "flag": "Flag",
+    "flagSet": "Flag set",
+    "taskView": "Task view",
+    "unreadTask": "Unread task",
+    "readTask": "Read task",
+    "reset": "Reset",
+    "apply": "Apply",
+    "channelOrName": "Channel or Name",
+    "tab": {
+      "chat": "Chat",
+      "task": "Task",
+      "wiki": "Wiki"
+    }
+  },
+  "addOrRemoveMember": {
+    "leftThisChannel": "left this channel",
+    "removed": "{actor} removed {user} from the channel",
+    "added": "{actor} added {user} to the channel",
+    "joinOneToOne": "{user} joined TMessage"
+  },
+  "modalPermission": {
+    "title": "Need permission for this action",
+    "desc": "You don’t have permission to create task. Please request permission before taking this action."
+  },
+  "titlePin": {
+    "content": "Viewing {count} pinned tasks. ",
+    "click": "Click here ",
+    "lastContent": "to exit",
+    "contentPin": "pinned task in the channel",
+    "contentUnPin": "removed pinned task from the channel"
+  },
+  "modalSetReminder": {
+    "title": "Set reminder for task",
+    "label": "When to remind",
+    "textOk": "Set reminder"
+  },
+  "headerFixedChannel": {
+    "toolTip": {
+      "chat": "Chat",
+      "task": "Task",
+      "wiki": "Wiki"
+    }
+  },
+  "toolTip": {
+    "top": "Back to top",
+    "bottom": "Go to bottom",
+    "unRead": "Unread task, you can’t mark done now"
+  },
+  "cardChannel": {
+    "edited": "Last edited",
+    "received": "Received",
+    "draft": "Draft",
+    "sent": "Sent",
+    "scheduled": "Scheduled",
+    "dueDate": "Due date",
+    "priority": "Priority",
+    "attachments": "Attachments",
+    "taskDetail": "Click to view task detail",
+    "wikiDetail": "Click to view post detail",
+    "flag": "Flag set",
+    "done": "Mark done",
+    "comments": "Comments",
+    "muteComment": "Mute comment",
+    "reminder": "Reminder"
+  },
+  "whatToDo": "What to do",
+  "markDone": "Mark done"
+}

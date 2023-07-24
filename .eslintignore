@@ -7,3 +7,5 @@
 /src-ssr
 /src/index.template.html
 /src/App.vue
+/src/layouts/landingPage
+/src/layouts/LayoutLanding.vue

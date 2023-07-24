@@ -1,0 +1,7 @@
+{
+  "title": "Deactivate this user?",
+  "contentLine1": "The member will no longer be able to access the workspace",
+  "contentLine2": "The member’s tasks will still be accessible in TMessage",
+  "btnYes": "Yes, deactivate",
+  "btnNo": "No"
+}

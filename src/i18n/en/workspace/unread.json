@@ -1,0 +1,7 @@
+{
+  "title": "Unread tasks",
+  "notify": {
+    "markAsReadSuccess": "Mark as read success",
+    "markAsReadFailed": "Mark as read failed"
+  }
+}

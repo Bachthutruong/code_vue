@@ -1,0 +1,14 @@
+{
+  "addPeople": "Add people",
+  "labelAddPeople": "Name ({'@'}name) or email",
+  "add": "Add",
+  "labelSearch": "Search by name, email or channel",
+  "modalSwitch": {
+    "title": "Switch account",
+    "addAnotherAccount": "Add another account",
+    "switch": "Switch"
+  },
+  "you": "you",
+  "noResult": "No results found",
+  "otherKeyword": "Please try again with other keyword"
+}
